@@ -1,0 +1,79 @@
+.divRobocupConteudo {
+  width: 40%;
+  border: 1px solid #ffff7e;
+  padding: 30px;
+}
+
+.aLinkMaisInformacoes {
+  color: yellow;
+  text-decoration: none;
+  display: flex;
+  justify-content: right;
+}
+
+.aLinkMaisInformacoes:hover {
+  color: yellow;
+  text-decoration: none;
+  opacity: 0.5;
+  transition: 0.2s linear;
+}
+
+.divMainFooterIndex {
+  text-align: justify;
+}
+
+.divBannerImgConteudo {
+  width: 50%;
+}
+
+@media only screen and (max-width: 1100px) {
+  .divRobocupImagemConteudo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .divRobocupConteudo {
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  .divIntegrantesImagemConteudo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .divMainFooterIndex div h3 {
+    font-size: 16px;
+  }
+  .divMainFooterIndex div p {
+    font-size: 14px;
+  }
+
+  .divBannerImagemIndex {
+    display: flex;
+    flex-direction: column;
+  }
+  .divBannerImagemIndex div {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .divRobocupConteudo h1 {
+    font-size: 14px;
+  }
+
+  .divRobocupConteudo span {
+    font-size: 11px;
+  }
+
+  .divRobocupConteudo p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .footerIndex {
+    display: none;
+  }
+}
