@@ -2,11 +2,11 @@ body {
   font-family: "Montserrat", sans-serif;
   background-image: linear-gradient(to bottom, #22202c, #402845);
   min-height: 100vh;
-}
-
-p h3 h1 h2 {
+  height: 100%;
+  position: relative;
   color: white;
 }
+
 /* 
 div {
   border: 1px solid;
