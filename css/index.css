@@ -26,7 +26,16 @@
   width: 50%;
 }
 
-@media only screen and (max-width: 1100px) {
+.divRobocup {
+  width: 50%;
+  padding: 30px;
+}
+
+.divRobocupPrimeiraBoxImg img {
+  width: 80%;
+}
+
+@media only screen and (max-width: 1400px) {
   .divRobocupImagemConteudo {
     display: flex;
     flex-direction: column;
@@ -56,6 +65,10 @@
   .divBannerImagemIndex div {
     width: 100%;
   }
+
+  .divRobocupPrimeiraBoxImg img {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -75,5 +88,31 @@
 @media only screen and (max-width: 800px) {
   .footerIndex {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .divRobocupPrimeiraBoxImg img {
+    display: none !important;
+  }
+
+  .divRobocupPrimeiraBoxImg {
+    display: none !important;
+  }
+
+  /* .divRobocupPrimeiraBox div {
+    display: none;
+  } */
+
+  .divRobocup {
+    width: 100%;
+  }
+
+  .divRobocup h4 {
+    font-size: 14px;
+  }
+
+  .divRobocup p {
+    font-size: 12px;
   }
 }
