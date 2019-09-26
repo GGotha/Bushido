@@ -83,6 +83,15 @@
   .divRobocupConteudo p {
     font-size: 12px;
   }
+
+  .divDisplayFlexIntegrantes {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .divDisplayFlexIntegrantes h5 {
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -100,16 +109,17 @@
     display: none !important;
   }
 
-  /* .divRobocupPrimeiraBox div {
-    display: none;
-  } */
-
   .divRobocup {
     width: 100%;
   }
 
   .divRobocup h4 {
     font-size: 14px;
+  }
+
+  .divRobocup h2 {
+    font-size: 14px;
+    font-weight: bold;
   }
 
   .divRobocup p {
