@@ -1,7 +1,4 @@
-<h2>Todo list</h2>
-<ul>
-  <li>Arrumar responsivo: contato e integrantes</li>
-</ul>
+<h1>Projeto Finalizado</h1>
 
 <h2>Algumas prints</h2>
 
