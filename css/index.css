@@ -35,6 +35,17 @@
   width: 80%;
 }
 
+#style-1::-webkit-scrollbar {
+  width: 6px;
+  background-color: #f5f5f5;
+}
+
+#style-1::-webkit-scrollbar-thumb {
+  background-color: #000000;
+}
+
+/* COMEÇO DAS MEDIAS QUERIES */
+
 @media only screen and (max-width: 1400px) {
   .divRobocupImagemConteudo {
     display: flex;
